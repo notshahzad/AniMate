@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="style.css" />
     <title>AniMate</title>
   </head>
@@ -21,7 +28,11 @@
     <div class="header">
       <nav>
         <a href="./index.html">
-          <img src="./images/logo.png" id="logo" style="padding-top: 10px" />
+          <img
+            src="./images/logo.png"
+            id="logo"
+            style="height: 30px; width: 30px; position: relative; top: -10px"
+          />
         </a>
         <p style="font-size: 20px">AniMate</p>
         <div class="nav-links">
@@ -36,6 +47,79 @@
         </div>
       </nav>
       <h1>senpai's collection</h1>
+      <div class="all-cards">
+        <div class="card-deck">
+          <div class="card" style="width: 18rem; background-color: #1f2833">
+            <img
+              src="./images/steins;gate.jpg"
+              class="card-img-top"
+              style="width: 100%; height: 100%"
+            />
+            <div class="card-img-overlay ovl">
+              <p class="card-text">
+                After discovering time travel, a university student and his
+                colleagues must use their knowledge to stop an evil organization
+                and their plans.
+              </p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Steins;Gate</h5>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; background-color: #1f2833">
+            <img
+              src="./images/kimi-no-nawa.jpg"
+              class="card-img-top"
+              style="width: 100%; height: 100%"
+            />
+            <div class="card-img-overlay ovl">
+              <p class="card-text">
+                Two strangers find themselves linked in a bizarre way. When a
+                connection forms, will distance be the only thing to keep them
+                apart?
+              </p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Kimi No Na Wa</h5>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; background-color: #1f2833">
+            <img
+              src="./images/demon-slayer.png"
+              class="card-img-top"
+              style="width: 100%; height: 100%"
+            />
+            <div class="card-img-overlay ovl">
+              <p class="card-text">
+                A family is attacked by demons and only two members survive -
+                Tanjiro and his sister Nezuko, who is turning into a demon
+                slowly. Tanjiro sets out to become a demon slayer to avenge his
+                family and cure his sister.
+              </p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Demon Slayer</h5>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; background-color: #1f2833">
+            <img
+              src="./images/devil-is-a-part-timer.jpg"
+              class="card-img-top"
+              style="width: 100%; height: 100%"
+            />
+            <div class="card-img-overlay ovl">
+              <p class="card-text">
+                Hilarity and fun ensues when Satan ends up in modern day Japan
+                without any magic to return, and starts working part time in a
+                fast food joint
+              </p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Maou-sama!</h5>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
