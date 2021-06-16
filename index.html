@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
   <link
     rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -48,9 +49,20 @@
             <li><a href="shows.html">shows</a></li>
             <li><a href="manga.html">Manga</a></li>
             <li><a href="about.html">About Us</a></li>
-            <li>
-              <img src="images/you.png" style="height: 17px; width: 17px" />
-            </li>
+            <div class="dropdown">
+              <button
+                onclick="myFunction()"
+                class="dropbtn"
+                style="background-color: #0b0c10"
+              >
+                <img src="./images/you.png" style="height: 17px; width: 17px" />
+              </button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Account</a>
+                <a href="#">Logs</a>
+                <a href="#">LogOut</a>
+              </div>
+            </div>
           </ul>
         </div>
       </nav>
@@ -162,4 +174,23 @@
       </div>
     </div>
   </body>
+  <script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches(".dropbtn")) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains("show")) {
+            openDropdown.classList.remove("show");
+          }
+        }
+      }
+    };
+  </script>
 </html>
