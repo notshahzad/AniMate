@@ -68,7 +68,7 @@ nav {
 }
 .ovl:hover {
   opacity: 1;
-  background: rgb(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0, 0.75);
 }
 .heading {
   display: flex;
@@ -147,4 +147,35 @@ input:focus {
 
 .show {
   display: block;
+}
+.footer {
+  background: #1f2833;
+  color: #66fcf1;
+  height: 200px;
+  position: relative;
+}
+.footer .footer-bottom {
+  color: #45a29e;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 10px;
+}
+.about {
+  text-align: center;
+  padding-top: 10px;
+}
+.about h1 {
+  border: 2px solid;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: #1f2833;
+  background: #66fcf1;
+}
+.content {
+  text-align: center;
+  padding-top: 20px;
 }
