@@ -87,7 +87,7 @@ nav {
 
 .play-button {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 #search:focus,
 input:focus {
