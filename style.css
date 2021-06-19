@@ -70,6 +70,9 @@ nav {
   opacity: 1;
   background: rgb(0, 0, 0, 0.75);
 }
+.card-text {
+  min-height: 67.5%;
+}
 .heading {
   display: flex;
   justify-content: center;
@@ -88,7 +91,6 @@ nav {
 .play-button {
   display: flex;
   justify-content: flex-end;
-  border: 1px solid;
 }
 #search:focus,
 input:focus {
@@ -179,7 +181,4 @@ input:focus {
 .content {
   text-align: center;
   padding-top: 20px;
-}
-.card-text {
-  min-height: 67.5%;
 }
