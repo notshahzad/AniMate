@@ -88,6 +88,7 @@ nav {
 .play-button {
   display: flex;
   justify-content: flex-end;
+  border: 1px solid;
 }
 #search:focus,
 input:focus {
@@ -178,4 +179,7 @@ input:focus {
 .content {
   text-align: center;
   padding-top: 20px;
+}
+.card-text {
+  min-height: 67.5%;
 }
